@@ -46,7 +46,7 @@ li{
 .icon-bar a {
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
-  width: 25%; /* Equal width (5 icons with 25% width each = 100%) */
+  width: 20%; /* Equal width (5 icons with 25% width each = 100%) */
   padding: 12px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   /*color: white;  White text color */
@@ -206,8 +206,9 @@ card-img:hover {
   justify-items: center;
  
 }
-/*
-.card {
+
+.card-identifier {
+/* 
   position: relative;
   display: flex;
   flex-direction: column;
@@ -216,7 +217,7 @@ card-img:hover {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 2px solid rgba(47, 209, 14, 0.125);
+  border: 2px solid rgba(47, 209, 14, 0.125); */
   /* Add rounded corners to the top left and the top right corner of the image */
   border-radius: 0.35rem;
   padding-bottom: 20px; 
@@ -224,6 +225,7 @@ card-img:hover {
   margin-bottom: 20px;
   padding-top: 20px;
   padding: 16px;
+  display: flex;
 }
 */
 .card {
