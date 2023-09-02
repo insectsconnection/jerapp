@@ -17,6 +17,7 @@ form{
     display: flex;
     flex-wrap: wrap;
 }
+
 li{
     list-style: none;
 }
@@ -47,7 +48,7 @@ li{
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
   width: 20%; /* Equal width (5 icons with 25% width each = 100%) */
-  padding: 12px 0; /* Some top and bottom padding */
+  padding: 10px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   /*color: white;  White text color */
   font-size: 8px bold; /* Increased font size */
@@ -105,7 +106,7 @@ li{
 
 .active {
   background-color: Blue;
-  height: 50px;
+  height: 70px;
 }
 .text-decoration-none a:hover {
   text-decoration: none;
@@ -414,7 +415,7 @@ body {
 article { width: 66%; height: 40vh; }
 
 
-//article
+/* article */
 .base { background: url(cake.jpg) 50%/ cover; }
 
 .grey {
@@ -424,7 +425,7 @@ article { width: 66%; height: 40vh; }
 }
 
 
-//3d carousel
+/* 3d carousel */
 .gallery {
   display: grid;
 }
@@ -479,4 +480,18 @@ article { width: 66%; height: 40vh; }
 .active-slider{
     display: block;
 }
+footer{
+text-align: center;
+padding: 3px;
+background-color: DarkSalmon;
+color: white;
+position: fixed;
+bottom: 0;
+width: 100%;
+/* Set the fixed height of the footer here */
+height: 60px;
+line-height: 60px; /* Vertically center the text there */
+background-color: #f5f5f5;
+/*background-color: red;*/
 
+}
